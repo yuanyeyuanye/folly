@@ -31,6 +31,9 @@
 #endif
 #endif
 
+#define MEMBARRIER_CMD_QUERY 0
+#define MEMBARRIER_CMD_SHARED 1
+
 namespace folly {
 namespace detail {
 
